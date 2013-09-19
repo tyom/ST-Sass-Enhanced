@@ -19,7 +19,7 @@
     },
     // ID selector
     {
-        "match": "#[a-zA-Z0-9_-]+\\b(?=.s*[{\\[,])",
+        "match": "#[a-zA-Z0-9_-]+\\b(?=.*[:{\\[,])",
         "name": "constant.other.rgb-value.sass"
     },
     // Parent selector
