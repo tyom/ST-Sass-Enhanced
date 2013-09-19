@@ -14,12 +14,12 @@
     },
     // Class selector
     {
-        "match": "\\.[a-zA-Z0-9_-]+",
+        "match": "\\.[a-zA-Z0-9_-]+\\b(?=.*[{\\[,])",
         "name": "entity.other.attribute-name.class.sass"
     },
     // ID selector
     {
-        "match": "(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\\b",
+        "match": "#[a-zA-Z0-9_-]+\\b(?=.s*[{\\[,])",
         "name": "constant.other.rgb-value.sass"
     },
     // Parent selector
@@ -95,6 +95,11 @@
         "begin": "\"",
         "end": "\"",
         "name": "string.quoted.double.sass"
+    },
+    {
+        "begin": "'",
+        "end": "'",
+        "name": "string.quoted.single.sass"
     },
     // Comments
     {

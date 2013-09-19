@@ -25,13 +25,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\.[a-zA-Z0-9_-]+</string>
+			<string>\.[a-zA-Z0-9_-]+\b(?=.*[{\[,])</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.class.sass</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b</string>
+			<string>#[a-zA-Z0-9_-]+\b(?=.s*[{\[,])</string>
 			<key>name</key>
 			<string>constant.other.rgb-value.sass</string>
 		</dict>
@@ -135,6 +135,14 @@
 			<string>"</string>
 			<key>name</key>
 			<string>string.quoted.double.sass</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>end</key>
+			<string>'</string>
+			<key>name</key>
+			<string>string.quoted.single.sass</string>
 		</dict>
 		<dict>
 			<key>begin</key>
