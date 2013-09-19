@@ -1,0 +1,14 @@
+{
+    "name": "Comments",
+    "scope": "source.sass, source.scss",
+    "settings": {
+        "shellVariables": [
+            {
+                "name": "TM_COMMENT_START",
+                "value"
+                : "// "
+            }
+        ]
+    },
+    "uuid": "8f0123fa-7e4b-4d93-8d88-e4339d652a0c"
+}
