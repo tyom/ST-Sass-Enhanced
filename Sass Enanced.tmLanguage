@@ -100,7 +100,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>-\b(moz-border-radius|moz-box-sizing|webkit-box-sizing|webkit-font-smoothing|webkit-transform|webkit-animation-\w+(\-\w+)?|webkit-appearance|ms-text-size-adjust|webkit-text-size-adjust)\b\s*(?=:)</string>
+			<string>-\b(moz-border-radius|moz-box-sizing|webkit-box-sizing|webkit-font-smoothing|webkit-transform|webkit-animation-\w+(\-\w+)?|webkit-appearance|ms-text-size-adjust|webkit-text-size-adjust|webkit-filter)\b\s*(?=:)</string>
 			<key>name</key>
 			<string>support.type.property-name.sass</string>
 		</dict>
