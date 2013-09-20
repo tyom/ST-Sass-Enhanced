@@ -179,7 +179,7 @@
     },
     // @rules
     {
-        "match": "@(-?\\S+)",
+        "match": "@([\\w\\d-]+)",
         "name": "support.constant.@rules.sass"
     },
     {

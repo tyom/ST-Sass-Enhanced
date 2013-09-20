@@ -262,7 +262,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>@(-?\S+)</string>
+			<string>@([\w\d-]+)</string>
 			<key>name</key>
 			<string>support.constant.@rules.sass</string>
 		</dict>
