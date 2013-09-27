@@ -138,6 +138,14 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>(?&lt;=\()(?!\))</string>
+			<key>end</key>
+			<string>(?=\))</string>
+			<key>name</key>
+			<string>string.quoted.double.sass</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>'</string>
 			<key>end</key>
 			<string>'</string>

@@ -96,6 +96,12 @@
         "end": "\"",
         "name": "string.quoted.double.sass"
     },
+    // Strings inside functions
+    {
+        "begin": "(?<=\\()(?!\\))",
+        "end": "(?=\\))",
+        "name": "string.quoted.double.sass"
+    },
     {
         "begin": "'",
         "end": "'",
