@@ -114,7 +114,7 @@
     },
     // Length
     {
-        "match": "(?<=[\\d])(em|ex|ch|rem|vh|vw|vmmin|vmax|px|pt|cm|mm|in|pc|s|ms)\\b|(?<=\\d)%",
+        "match": "(?<=[\\d])(em|ex|ch|rem|vh|vw|vmmin|vmax|px|pt|cm|mm|in|pc|s|ms|deg)\\b|(?<=\\d)%",
         "name": "constant.other.unit.sass"
     },
     // RGB values

@@ -163,7 +163,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=[\d])(em|ex|ch|rem|vh|vw|vmmin|vmax|px|pt|cm|mm|in|pc|s|ms)\b|(?&lt;=\d)%</string>
+			<string>(?&lt;=[\d])(em|ex|ch|rem|vh|vw|vmmin|vmax|px|pt|cm|mm|in|pc|s|ms|deg)\b|(?&lt;=\d)%</string>
 			<key>name</key>
 			<string>constant.other.unit.sass</string>
 		</dict>
